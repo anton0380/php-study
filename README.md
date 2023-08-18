@@ -10,4 +10,6 @@ sudo apt install php-curl
 sudo apt install php-mysql
 sudo apt install php-mbstring
 composer create-project laravel/laravel bboard "9.1.*"
+cd bboard
+composer require laravel/ui
 ```
