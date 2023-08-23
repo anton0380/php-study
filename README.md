@@ -16,3 +16,13 @@ php artisan serve
 
 php artisan make:controller BbsController
 ```
+### If prjject exist
+after install
+```
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan config:cache
+php artisan serve
+```
+
