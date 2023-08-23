@@ -33,3 +33,13 @@ php artisan make:migration create_bbs_table --create=bbs
 php artisan migrate
 ```
 
+### Models
+```
+php artisan make:model Bb
+```
+
+### Console
+```
+php artisan tinker
+```
+
