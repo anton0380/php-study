@@ -16,7 +16,7 @@ php artisan serve
 
 php artisan make:controller BbsController
 ```
-### If prjject exist
+### If project exist
 after install
 ```
 composer install
@@ -24,5 +24,12 @@ cp .env.example .env
 php artisan key:generate
 php artisan config:cache
 php artisan serve
+```
+
+### Migrations
+```
+sudo apt install php-sqlite3
+php artisan make:migration create_bbs_table --create=bbs
+php artisan migrate
 ```
 
