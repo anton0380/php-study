@@ -43,3 +43,18 @@ php artisan make:model Bb
 php artisan tinker
 ```
 
+### Rollback
+Rollback last migration
+```
+php artisan migrate:rollback --step=1
+```
+
+### Auth
+```
+php artisan ui:auth
+```
+
+### Routes
+```
+php artisan route:list
+```
