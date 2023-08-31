@@ -9,6 +9,7 @@ sudo apt install php-xml
 sudo apt install php-curl
 sudo apt install php-mysql
 sudo apt install php-mbstring
+sudo apt-get install libapache2-mod-php php-common php-gd php-intl php-xsl php-zip php-bcmath php-soap php-xdebug php-imagick
 composer create-project laravel/laravel bboard "9.1.*"
 cd bboard
 composer require laravel/ui
