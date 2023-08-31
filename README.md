@@ -58,3 +58,8 @@ php artisan ui:auth
 ```
 php artisan route:list
 ```
+
+### Policy
+```
+php artisan make:policy BbPolicy
+```
