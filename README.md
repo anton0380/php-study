@@ -67,7 +67,7 @@ php artisan make:policy BbPolicy
 
 ### Localization
 ```
-composer require laravel-lang/lang --dev
 composer require arcanedev/laravel-lang --dev
+composer require laravel-lang/lang:^10.4.2 --dev
 php artisan trans:publish ru --json
 ```
