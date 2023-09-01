@@ -133,4 +133,14 @@ return [
             'rule-name' => 'custom-message',
         ],
     ],
+    'attributes' => [
+        'title' => 'Товар',
+        'content' => 'Содержание объявления',
+        'price' => 'Цена',
+    ],
+    'custom' => [
+        'price' => [
+            'required' => 'Раздача товаров даром не допускается',
+        ],
+    ],
 ];
